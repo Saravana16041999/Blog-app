@@ -1,0 +1,24 @@
+.Login {
+  width: 600px;
+  height: 400px;
+  margin-left: 350px;
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  color: black;
+  box-shadow: 2px 2px 8px 5px rgba(0, 0, 0, 0.219);
+  border-radius: 12px;
+}
+.btn-login {
+  width: 200px;
+  height: 50px;
+  font-size: 22px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: none;
+  border-style: none;
+  box-shadow: 2px 2px 8px 5px rgba(0, 0, 0, 0.219);
+}

@@ -1,0 +1,65 @@
+/* main container */
+.post {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+/* each post */
+.new-post {
+  display: flex;
+  width: 600px;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 10px;
+  border-radius: 12px;
+  height: auto;
+  text-align: center;
+  background-color: rgba(128, 128, 128, 0.093);
+  position: relative;
+  margin-bottom: 20px;
+  box-shadow: 2px 2px 8px 5px rgba(0, 0, 0, 0.219);
+}
+/* title of the post */
+.title-post {
+  border-bottom-style: solid;
+  margin: 5px;
+  border-bottom-color: red;
+}
+/* author is div  */
+.author {
+  width: 500px;
+  display: flex;
+  justify-content: right;
+  margin: 20px;
+}
+/* author - small  */
+.author-name {
+  background-color: red;
+  width: 200px;
+  border-radius: 12px;
+  color: white;
+}
+.like-btn {
+  background: none;
+  border: none;
+  font-size: 25px;
+  position: absolute;
+  bottom: 0px;
+  left: 20px;
+}
+.like-btn:hover {
+  font-size: 30px;
+}
+.delete-btn {
+  background: none;
+  border: none;
+  font-size: 25px;
+  position: absolute;
+  bottom: 0px;
+  left: 55px;
+  color: rgba(20, 19, 19, 0.322);
+}
+.content-post {
+  margin: 10px;
+}
